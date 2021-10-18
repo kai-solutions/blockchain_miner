@@ -1,0 +1,5 @@
+COPY INTO "STAGE"."ETH"."BLOCK_METADATA" 
+           FROM '@"STAGE"."ETH"."BLOCK_METADATA"/eth_blockmetadata_13438609_1634516292.csv' 
+           FILE_FORMAT = '"STAGE"."ETH"."CSV_FORMAT"' 
+           ON_ERROR = 'ABORT_STATEMENT' 
+           PURGE = FALSE;

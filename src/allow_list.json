@@ -1,0 +1,72 @@
+[
+    {
+        "type": "SNOWFLAKE_DEPLOYMENT",
+        "host": "fb56901.us-east-2.aws.snowflakecomputing.com",
+        "port": 443
+    },
+    {
+        "type": "SNOWFLAKE_DEPLOYMENT_REGIONLESS",
+        "host": "zooqpfj-wh46986.snowflakecomputing.com",
+        "port": 443
+    },
+    {
+        "type": "STAGE",
+        "host": "sfc-oh-ds1-9-customer-stage.s3.us-east-2.amazonaws.com",
+        "port": 443
+    },
+    {
+        "type": "STAGE",
+        "host": "sfc-oh-ds1-9-customer-stage.s3-us-east-2.amazonaws.com",
+        "port": 443
+    },
+    {
+        "type": "STAGE",
+        "host": "sfc-oh-ds1-9-customer-stage.s3.amazonaws.com",
+        "port": 443
+    },
+    {
+        "type": "SNOWSQL_REPO",
+        "host": "sfc-repo.snowflakecomputing.com",
+        "port": 443
+    },
+    {
+        "type": "OUT_OF_BAND_TELEMETRY",
+        "host": "client-telemetry.snowflakecomputing.com",
+        "port": 443
+    },
+    {
+        "type": "OCSP_CACHE",
+        "host": "ocsp.snowflakecomputing.com",
+        "port": 80
+    },
+    {
+        "type": "DUO_SECURITY",
+        "host": "api-15773c8e.duosecurity.com",
+        "port": 443
+    },
+    {
+        "type": "OCSP_RESPONDER",
+        "host": "ocsp.digicert.com",
+        "port": 80
+    },
+    {
+        "type": "OCSP_RESPONDER",
+        "host": "ocsp.sca1b.amazontrust.com",
+        "port": 80
+    },
+    {
+        "type": "OCSP_RESPONDER",
+        "host": "ocsp.rootg2.amazontrust.com",
+        "port": 80
+    },
+    {
+        "type": "OCSP_RESPONDER",
+        "host": "o.ss2.us",
+        "port": 80
+    },
+    {
+        "type": "OCSP_RESPONDER",
+        "host": "ocsp.rootca1.amazontrust.com",
+        "port": 80
+    }
+]
