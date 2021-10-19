@@ -50,9 +50,13 @@ trx_data.blockHash = trx_data.blockHash.apply(lambda x: web3.toHex(x))
 
 # Basic cleansing
 def transform(df):
-    df.columns = df.columns.str.strip().str.replace(' ', '_').str.upper().str.replace('(','')
+    df.columns = df.columns.str.strip().str.replace(' ', '_').str.upper().str.replace('(','',regex=True)
     objs = df.select_dtypes(['object'])
-    df[objs.columns] = objs.apply(lambda x: x.str.strip())
+    for i in objs.columns:
+        try:
+            df[i] = i.apply(lambda x: x.str.strip())
+        except:
+            pass
     
     return df
 

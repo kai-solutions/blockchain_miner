@@ -1,6 +1,6 @@
 #!/bin/bash
 
-my_activate() {
+activate() {
 
     source venv/bin/activate
     export SNOWFLAKE_PASS=$(pass SNOWFLAKE/ACCOUNT)
