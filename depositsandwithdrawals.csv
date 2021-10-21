@@ -1,0 +1,34 @@
+,TXHASH,STATUS,BLOCK,TIMESTAMP,FROM,TO,TRANSACTIONACTIONS,VALUE,TRANSACTIONFEE,GASPRICE,GASLIMIT,GASUSED,NONCE,INPUTDATA
+0,0x70e8e3e0cf70045c2546be57311244c8ed61636d9e51534fb34825bf761c0271,Success,7689535,2021-10-19 10:53:33,ronin:f224beff587362a88d859e899d0d80c080e1,Ronin Gateway Contract,Deposit to Ronin,0 RON,0.00028294 RON,1 GWEI,"287,139","282,939",723606,"['Function:batchDepositERCTokenFor(uint256[],address[],address[],uint32[],uint256[])', 'Arguments:', '[0]-[_depositIds]: 1792302,1792303,1792304', '[1]-[_owners]: 0x12c160807365dc528091c42c1215583d368c5213,0xa20673b03b670aec79145d71865e131c51bc4c61,0xe60fb68d65f53239088b423f915a2a4fd734a70b', '[2]-[_tokens]: 0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5,0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5,0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5', '[3]-[_standards]: 20,20,20', '[4]-[_tokenNumbers]: 100000000000000000,160000000000000000,200000000000000000']"
+92,0x4c7bbc2ccb66e34c7d08ad7398fa2c2b5d062375d7ad8bc7398afef7a4e6aee2,Success,7689536,2021-10-19 10:53:36,ronin:73f1efdc305e9d8a6716408a457d7f4bfe84,Ronin Gateway Contract,Withdraw from Ronin,"From
+ronin:73f1efdc305e9d8a6716408a457d7f4bfe84
+999d
+To
+Ronin Gateway Contract
+For
+0.4125
+Ronin Wrapped Ether (WETH)",0 RON,0,"248,737","181,051",94,"['Function:withdrawERC20For(address,address,uint256)', 'Arguments:', '[0]-[_owner]: 0xfed512f7a817c0902881e0babcb68842095538db', '[1]-[_token]: 0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5', '[2]-[_amount]: 412502096093750001']"
+149,0x593fba1056f18995f1906e5b7b17517acd156467f68ed2e457582ecb5963cba4,Success,7689537,2021-10-19 10:53:39,ronin:11360eacdedd59bc433afad4fc8f0417d1fb,Ronin Gateway Contract,Deposit to Ronin,"From
+Ronin Gateway Contract
+To
+ronin:12c160807365dc528091c42c1215583d368c
+5213
+For
+0.1
+Ronin Wrapped Ether (WETH)
+From
+Ronin Gateway Contract
+To
+ronin:a20673b03b670aec79145d71865e131c51bc
+4c61
+For
+0.16
+Ronin Wrapped Ether (WETH)
+From
+Ronin Gateway Contract
+To
+ronin:e60fb68d65f53239088b423f915a2a4fd734
+a70b
+For
+0.2
+Ronin Wrapped Ether (WETH)",0 RON,0.00060518 RON,"614,292","605,177",704673,"['Function:batchDepositERCTokenFor(uint256[],address[],address[],uint32[],uint256[])', 'Arguments:', '[0]-[_depositIds]: 1792302,1792303,1792304', '[1]-[_owners]: 0x12c160807365dc528091c42c1215583d368c5213,0xa20673b03b670aec79145d71865e131c51bc4c61,0xe60fb68d65f53239088b423f915a2a4fd734a70b', '[2]-[_tokens]: 0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5,0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5,0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5', '[3]-[_standards]: 20,20,20', '[4]-[_tokenNumbers]: 100000000000000000,160000000000000000,200000000000000000']"

@@ -108,9 +108,7 @@ def main():
             print('Trying again in 3 seconds')
             time.sleep(3)
 
-""" def main():
-    newblock = EtherBlockMiner('69765a3368f44f5c8cc3691d2361e496')
-    print(newblock.name.lower()) """
+
 
 
 if __name__ == '__main__':
